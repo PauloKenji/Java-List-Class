@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Vector;
@@ -7,7 +8,7 @@ import java.util.Vector;
 public class ListClass<T> {    
     
     private List<T> list = new ArrayList<>();
-    
+    private HashMap<Integer, T> hashMapList = new HashMap<>();
 
     public void addElement(T element){
         list.add(element);
@@ -57,5 +58,11 @@ public class ListClass<T> {
 
     public void sort(){
         Collections.sort(list, null);
+    }
+    public void createHashMapList(){
+    
+        for(int i = 0; i < list.size(); i++){
+            hashMapList.put(i,list.get(i));
+        }
     }
 }

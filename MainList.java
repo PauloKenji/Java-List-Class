@@ -1,3 +1,13 @@
+/*
+
+ Paulo Kenji - SP3045382
+ Ryan Salomão - SP3044521
+ Thiago César - Sp3044823
+ Henrique Baesa - 
+ Yoane Miyamura - 
+ Isabelle Gomes - 
+
+*/
 
 public class MainList {
     public static void main(String[] args) {
@@ -25,6 +35,7 @@ public class MainList {
 
         System.out.println(myList.getStringOfAllElements());  
 
+        myList.createHashMapList();
         
     }
 
