@@ -2,10 +2,10 @@
 
  Paulo Kenji - SP3045382
  Ryan Salomão - SP3044521
- Thiago César - Sp3044823
- Henrique Baesa - 
- Yoane Miyamura - 
- Isabelle Gomes - 
+ Thiago César - SP3044823
+ Henrique Baesa - SP3045048
+ Yoane Miyamura - SP3046117
+ Isabelle Gomes - SP3045374
 
 */
 
